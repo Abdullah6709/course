@@ -1,0 +1,57 @@
+/* General App Styles */
+.app-container {
+  font-family: Arial, sans-serif;
+  padding: 20px;
+  
+}
+
+/* Navigation Bar Styles */
+.navbar {
+  background-color: #111;
+  padding: 10px 20px;
+}
+
+.navbar ul {
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+  gap: 15px;
+  padding: 0;
+  margin: 0;
+}
+
+.navbar li {
+  display: inline;
+}
+
+.navbar a {
+  color: black;
+  text-decoration: none;
+  font-size: 20px;
+  font-weight: 700;
+}
+
+.navbar a:hover {
+  text-decoration: underline;
+}
+
+/* Screen Container Styles */
+.screen-container {
+  margin: 20px auto; /* Center horizontally with auto margin */
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  background-color: #f9f9f9;
+
+  display: flex; /* Use flexbox */
+  flex-direction: column; /* Stack children vertically */
+  align-items: center; /* Center horizontally */
+  justify-content: center; /* Center vertically */
+  text-align: center; /* Center text inside */
+  height: 100vh; /* Take full viewport height */
+}
+@media (max-width: 768px) {
+  .screen-container {
+    padding: 15px;
+  }
+}
